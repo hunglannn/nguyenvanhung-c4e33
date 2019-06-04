@@ -68,13 +68,30 @@
 
 // ex2.6
 
-let remove_dollar_sign = (s) =>{
-    let remove = s.replace(/[$]/g, "")
-    return remove
+// let remove_dollar_sign = (s) =>{
+//     let remove = s.replace(/[$]/g, "")
+//     return remove
+// }
+// console.log(remove_dollar_sign("$$$$$$hello"))
+
+//ex2.7
+// let remove_dollar_sign = (s) =>{
+//     let remove = s.replace(/[$]/g, "")
+//     return remove
+// }
+// console.log(remove_dollar_sign("$$$$$$hello"))
+// string_with_no_dollars = remove_dollar_sign("$80% percent of $life is to show $up")
+// if (string_with_no_dollars == "80% percent of life is to show up"){
+//     console.log("Your function is correct")}
+// else{
+//     console.log("Oops, there's a bug")}
+
+//ex2.8
+let get_even_list = (l) => {
+    let list = []
+    for (i = 0; i <= l.length; i++){
+        if (l[i] %2 ===  0){
+        list.push[i]
+    }
+    }
 }
-console.log(remove_dollar_sign("$$$$$$hello"))
-string_with_no_dollars = remove_dollar_sign("$80% percent of $life is to show $up")
-if (string_with_no_dollars == "80% percent of life is to show up"){
-    console.log("Your function is correct")}
-else{
-    console.log("Oops, there's a bug")}
