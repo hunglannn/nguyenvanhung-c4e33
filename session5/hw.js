@@ -26,13 +26,12 @@
 //  to use function from a different file other than our currently working file we call name of function and value in function
 
 // ex2.1
-//  let sayhello = () =>{
-//      console.log("Hello world")
-//  }
-// sayhello()
-// sayhello()
-// sayhello()
-
+ let sayhello = () =>{
+     console.log("Hello world")
+     console.log("Hello world")
+     console.log("Hello world")
+ }
+sayhello()
 
 //ex2.3
 // clear()
