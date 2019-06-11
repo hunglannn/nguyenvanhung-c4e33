@@ -10,4 +10,3 @@ let selects = document.getElementById("select")
 removecolour.addEventListener("click", () => {
     selects[select.selectedIndex ].remove()
 })
-
