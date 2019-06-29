@@ -1,0 +1,26 @@
+/* h1 {
+    color:red */
+/* } */
+/* #h1-1st{
+    color: green
+}
+
+#h1-2nd {
+    color: yellowgreen
+}
+.heading-yellow{
+    color: yellow
+} */
+
+#parent-box{
+    background-color: gray;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+}
+.child-box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
