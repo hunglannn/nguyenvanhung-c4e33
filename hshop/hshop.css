@@ -119,3 +119,7 @@ a:visited{
   align-content: center;
   padding-right: 1rem;
 }
+#menu{
+    display: flex;
+    justify-content: center;
+}
