@@ -1,0 +1,69 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.254em;
+}
+a{
+    text-decoration: none;
+    color: rgb(68, 0, 255);
+}
+a:hover,
+a:visited{
+    color: #265778
+}
+#header{
+    max-width: 100%;
+    height: 30px;
+    background-color: #ff9100;
+    display: flex;
+    padding: 1rem;
+}
+#logo{
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    padding-left: 70px;
+}
+
+#begin{
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+#check{
+    display: flex;
+    padding-left: 45%;
+    width: 20%
+}
+#manage{
+    display: flex;
+    background-color: rgb(255, 217, 168);
+    height: 150px;
+    width: 30%;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) 
+}
+#manage1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#manage2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
