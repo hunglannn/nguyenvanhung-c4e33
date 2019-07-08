@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="homepage.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	  <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+	
+    <title>HShop</title>
+</head>
+<body>
+    <div id="container">
+        <div id="menuitem"> 
+            <div id="menu">
+                DANH MỤC SẢN PHẨM
+            </div>
+            <ul>
+
+                    <li onclick="renderItem('ea')"><a>Electronic Accessories</a></li>
+                    <li onclick="renderItem('tv')"><a>TV & Home Appliances</a></li>
+                    <li onclick="renderItem('hb')"><a>Health & Beauty</a></li>
+                    <li onclick="renderItem('bt')"><a>Babies & Toys</a></li>
+                    <li onclick="renderItem('gp')"><a>Groceries & Pets</a></li>
+                    <li onclick="renderItem('hl')"><a>Home & Lifestyle</a></li>
+                    <li onclick="renderItem('wf')"><a>Women's Fashion</a></li>
+                    <li onclick="renderItem('mf')"><a>Men's Fashion</a></li>
+                    <li onclick="renderItem('fa')"><a>Fashion Accessories</a></li>
+                    <li onclick="renderItem('st')"><a>Sports & Travel</a></li>
+                    <li onclick="renderItem('am')"><a>Automotive & Motorcycles</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="header">
+                <div id="logo">Hshop</div>
+                <div id="checker">
+                    <input id="damsd" type="text">
+                    <button onclick="tracking_check()">Check</button>   
+                </div>
+            </div>
+            
+ 
+            <div id="itemList" class="row"></div>
+            <div id="itemLi" class="row"></div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script type="text/javascript" src="homepage.js"></script>
+</body>
+</html>
+
+

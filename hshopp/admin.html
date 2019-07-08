@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Acme Web Design</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand"><span>HShop</span> Form</h1>
+    <div class="wrapper">
+      <div class="company-info">
+        <h4 style="color: red">Tutorial</h4>
+        <ul>
+            <li style="color: blue">Type: </li>
+            <li style="color: black"> - ea ___ Electronic Accessories </li>
+            <li style="color: black"> - tv ___ TV & Home Appliances </li>
+            <li style="color: black"> - hb ___ Health & Beauty </li>
+            <li style="color: black"> - bt ___ Babies & Toys </li>
+            <li style="color: black"> - gp ___ Groceries & Pets </li>
+            <li style="color: black"> - hl ___ Home & Lifestyle </li>
+            <li style="color: black"> - wf ___ Women's Fashion </li>
+            <li style="color: black"> - mf ___ Men's Fashion </li>
+            <li style="color: black"> - fa ___ Fashion Accessories </li>
+            <li style="color: black"> - st ___ Sports & Travel </li>
+            <li style="color: black"> - am ___ Automotive & Motorcycles </li>
+            <li style="color: blue">Name: </li>
+            <li style="color: blue">Image: </li>
+            <li style="color: black"> - Link only </li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Form</h3>
+        <div class="alert">Post products successfully</div>
+        <form id="form">
+          <p class="full">
+            <label>Type</label>
+            <textarea name="message" rows="1" id="type"></textarea>
+          </p>
+          <p class="full">
+              <label>Name</label>
+              <textarea name="message" rows="1" id="name"></textarea>
+            </p>
+          <p class="full">
+              <label>Image</label>
+              <textarea name="message" rows="1" id="image"></textarea>
+            </p>
+          <p class="full">
+            <label>Price</label>
+            <textarea name="message" rows="5" id="price"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

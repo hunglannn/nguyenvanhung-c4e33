@@ -29,33 +29,7 @@ a:visited{
     align-items: center;
     padding-left: 70px;
 }
-/* #acount{
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    padding-left: 80px; */
-/* } */
-#list{
-    position: fixed;
-    height: auto;
-    width: auto;
-    background-color: rgb(250, 202, 144);
-}
-#list ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-#list ul li {
-    line-height: 2em;
-    height: 2em;
-}
-#list ul li a{
-    display: block;
-    color: #3700ff;
-    padding: 0 2em;
-    border-bottom: 1px solid rgb(119, 119, 119)
-}
+
 #begin{
     font-size: 30px;
     padding: 20px;
@@ -63,14 +37,7 @@ a:visited{
     display: flex;
     justify-content: center;
 }
-#list li :hover{
-    background-color: #353535;
-}
-#list1{
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-}
+
 #check{
     display: flex;
     padding-left: 45%;

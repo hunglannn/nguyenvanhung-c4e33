@@ -95,7 +95,7 @@
                     </div>
                     <div id="box1" class="col">
                             Ốp lưng iphone 7plus họa tiết <br>
-                            <a href="#">Mua hàng</a>
+                            <button onclick="myfunction()">Mua hàng</button>
                     </div>
                 </div>
 
@@ -129,7 +129,8 @@
                     </div>
                 </div>
             </div>
-            <div class="collapse" id="tablediv">
+            <div id="tablediv">
+                <button id="close" onclick="myfunction()">x</button>
                 <table id="table">
                     <thead>
                         <tr>
@@ -151,11 +152,26 @@
                             <td>200k</td>
                             <td id="number"><input type="number" value="1"></td>
                             <td>Total</td>
-                            <td><button>Mua</button></td>
                         </tr>
                     </tbody>
-                </table>
+                </table>  
+                <div id="info">
+                    <div class="hangnhap">
+                        <label >Họ tên người mua       </label>
+                        <input class="hangnhap1" type="text" name="" id="name" placeholder="Nhập họ tên"> 
+                    </div>
+                    <div class="hangnhap">
+                        <label >Địa chỉ người mua      </label>
+                        <input class="hangnhap1" type="text" id="adress" placeholder="Nhập địa chỉ ">
+                    </div>
+                    <div class="hangnhap">
+                        <label>Số điện thoại người mua</label>
+                        <input class="hangnhap1" type="text" id="phone" placeholder="Nhập số điện thoại">
+                    </div>
+                </div> 
+                <button id="submit">Xác nhận</button>
             </div>
+            
         <div id="footer">
              <p>Hshop - Project by Hùng - Hiếu - Đông</p>
         </div>

@@ -17,13 +17,13 @@ a:visited{
 #container{
     padding-left: 280px;
     position: relative;
-    max-width: 100%;
+    width: 80%;
     left: 0;
 }
 #menuitem{
     position: fixed;
     height: 100%;
-    max-width: auto;
+    width: 270px;
     left: 0;
     background-color: rgb(250, 202, 144)
 }
@@ -46,7 +46,7 @@ a:visited{
     background-color: #353535;
 }
 #header{
-    max-width: 100%;
+    width: 100%;
     height: 150px;
     background-color: #ff9100;
     display: flex;
@@ -63,27 +63,35 @@ a:visited{
     font-family: 'Courier New', Courier, monospace
 }
 #trend{
-    padding: 0.5em;
+    padding: 1em;
     background: #EFEFEF;
     border: 1px solid #E8E8E8;
-    width: auto;
+    width: 97%;
     height: 150px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column  
 }
 .size{
-    height: 100px;
-    width: 100px;
+    display: flex;
+    flex-flow: column;
+    height: auto;
+    width: 100%;
+    align-items: center
 }
-.pic{
-    max-width: 100%;
-    /* object-fit: cover; */
-    padding-left: 10px;
+
+.pic {
+    width: 50%;
+
+}
+.pic > img{
+    width: 100%;
+    object-fit: contain;
+    /* padding-left: 10px; */
 }
 #footer{
     font-size: 13px;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 .width{
     width: 270px;
@@ -91,29 +99,23 @@ a:visited{
     padding-top: 20px   
 }
 #news{
-    display: flex;
-    padding-left: 5%
+    display: flex
 }
-.list-item{
-    display: flex;
-    width: 80%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    position: relative
-}
+
 .col{
     display: flex;
     margin-right: 1rem;
     flex-flow: column;
     justify-content: center;
 }
-.shopping-item {
-    width: 90%;
-    height: 20px;
-    text-align: right;
+#checker {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 22px;
+    margin: auto
 }
+
 #shopping{
   display: flex;
   flex-wrap: wrap;
@@ -123,9 +125,6 @@ a:visited{
 #menu{
     display: flex;
     justify-content: center;
-}
-.item{
-    width: 50%;
 }
 #tablediv{
     width: 50%;
@@ -149,7 +148,6 @@ button{
 #info{
     display: flex;
     flex-direction: column;
-    /* width: 20%; */
     align-items: flex-start
 }
 .hangnhap{
@@ -158,6 +156,31 @@ button{
     padding: 5px;
     justify-content: space-between;
     margin: 5px
+}
+#login{
+    display: flex;
+    justify-content: space-around   
+}
+#itemList{
+    flex-flow: wrap;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    display: flex;
     
 }
 
+#box1 h4{
+    height: 20px;
+    text-align: center  
+}
+#box1 h5{
+    padding-top: 15px;
+    text-align: center
+}
+
+.item {
+    display: flex;
+    width: 30%;
+
+}
