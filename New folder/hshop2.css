@@ -1,0 +1,119 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.254em;
+}
+a{
+    text-decoration: none;
+    color: rgb(68, 0, 255);
+}
+a:hover,
+a:visited{
+    color: #265778
+}
+#header{
+    max-width: 100%;
+    height: 30px;
+    background-color: #ff9100;
+    display: flex;
+    padding: 1rem;
+}
+#logo{
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    padding-left: 70px;
+}
+/* #acount{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px; */
+/* } */
+#list{
+    position: fixed;
+    height: auto;
+    width: auto;
+    background-color: rgb(250, 202, 144);
+}
+#list ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#list ul li {
+    line-height: 2em;
+    height: 2em;
+}
+#list ul li a{
+    display: block;
+    color: #3700ff;
+    padding: 0 2em;
+    border-bottom: 1px solid rgb(119, 119, 119)
+}
+#begin{
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+#list li :hover{
+    background-color: #353535;
+}
+#list1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+#check{
+    display: flex;
+    padding-left: 45%;
+    width: 20%
+}
+#manage{
+    display: flex;
+    background-color: rgb(255, 217, 168);
+    height: 200px;
+    width: 80%;
+    justify-content: center;
+    /* align-content: center; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) ;
+    text-align: center 
+}
+.managee{
+    width: 33.33%;
+    text-align: center
+}
+.size{
+    height: 100px;
+    width: 100px;
+    padding: 60px;
+
+}
+
+#name1{
+    width: 16%
+}
+#price{
+    width: 16%
+}
+#name2{
+    width: 16%
+}
+#address{
+    width: 16%
+ 
+}
+#number{
+    width: 16%
+    
+}
